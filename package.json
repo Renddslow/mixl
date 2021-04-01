@@ -7,7 +7,9 @@
 	"license": "MIT",
 	"author": "Matt McElwee <mubatt@wyopub.com>",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"start": "netlify dev"
+	},
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
@@ -40,8 +42,17 @@
 		"ava": "^3.15.0",
 		"husky": "^6.0.0",
 		"lint-staged": "^10.5.4",
+		"netlify-cli": "^3.13.10",
 		"prettier": "^2.2.1",
 		"ts-node": "^9.1.1",
 		"typescript": "^4.2.3"
+	},
+	"dependencies": {
+		"catchify": "^2.6.1",
+		"googleapis": "^68.0.0",
+		"got": "^11.8.2",
+		"htmlmetaparser": "^2.1.1",
+		"htmlparser2": "^6.0.1",
+		"pokemon": "^2.0.2"
 	}
 }
